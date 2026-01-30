@@ -1490,7 +1490,7 @@ section {
    FOOTER - ATUALIZADO COM NOVA COR
    ============================================ */
 .footer {
-    background-color: #0e134a;
+    background-color: #080d41;
     color: var(--white);
     padding: 70px 0 30px;
 }
@@ -1948,10 +1948,12 @@ section {
     }
     
     .logo-img {
-        width: 70px;
-        height: 70px;
-        margin-right: 8px;
-    }
+    width: 120px;  
+    height: 120px;
+    object-fit: contain;
+    vertical-align: middle;
+    margin-right: -8px;
+}
     
     .logo-text {
         font-size: 1.4rem;
