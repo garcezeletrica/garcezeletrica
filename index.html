@@ -12,20 +12,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="icon" type="image/x-icon" href="C:\Users\xunin\OneDrive\Documentos\GarcezEletrica\Logos\Icone.png">
+    <link rel="icon" type="image/x-icon" href="Logos/Icone.ico">
     
     <style>
         /* Estilos mínimos para garantir funcionamento inicial */
-        .logo-icon-custom {
-            display: inline-block;
+        .logo-img {
             width: 90px;
             height: 90px;
-            background-image: url('C:\\Users\\xunin\\OneDrive\\Documentos\\GarcezEletrica\\Logos\\Icone.png');
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: center;
+            object-fit: contain;
             vertical-align: middle;
-            margin-right: 10px;
+            margin-right: 5px;
+            border: none !important;
+            outline: none !important;
+            box-shadow: none !important;
         }
         
         /* Loading inicial */
@@ -47,7 +46,9 @@
         <div class="container">
             <div class="logo">
                 <a href="#inicio" aria-label="Garcez Elétrica - Página inicial">
-                    <span class="logo-icon-custom" aria-hidden="true"></span>
+                    <img src="C:\Users\xunin\OneDrive\Documentos\GarcezEletrica\Logos\Icone.png" 
+                         alt="Garcez Elétrica" 
+                         class="logo-img">
                     <span class="logo-text">Garcez&nbsp;<span class="logo-highlight"> Elétrica</span></span>
                 </a>
             </div>
@@ -336,13 +337,6 @@
                                 <i class="fas fa-chevron-right"></i>
                             </button>
                             
-                            <!-- Indicadores melhorados -->
-                            <div class="carousel-indicators">
-                                <span class="indicator active" data-slide="0" aria-label="Ir para slide 1"></span>
-                                <span class="indicator" data-slide="1" aria-label="Ir para slide 2"></span>
-                                <span class="indicator" data-slide="2" aria-label="Ir para slide 3"></span>
-                            </div>
-                            
                             <!-- Contador de slides -->
                             <div class="slide-counter">
                                 <span class="current-slide">1</span> / <span class="total-slides">3</span>
@@ -367,14 +361,14 @@
                                 <!-- Slide 1 -->
                                 <div class="carousel-slide active">
                                     <div class="slide-image">
-                                        <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Instalação de ar condicionado" loading="lazy">
+                                        <img src="Fotos-Servicos/Refrigeracao/Refrigeracao1.jpeg" alt="Instalação de ar condicionado" loading="lazy">
                                         <button class="expand-btn" data-carousel="1" data-slide="0" aria-label="Expandir imagem">
                                             <i class="fas fa-expand"></i>
                                         </button>
                                         <div class="slide-overlay">
                                             <div class="overlay-content">
-                                                <h4>Instalação Profissional</h4>
-                                                <p>Ar condicionado split em ambiente residencial</p>
+                                                <h4>Ar Condicionado Split</h4>
+                                                <p>Ar condicionado split em ambiente comercial</p>
                                             </div>
                                         </div>
                                     </div>
@@ -382,7 +376,7 @@
                                         <h4>Ar Condicionado Split</h4>
                                         <p>Instalação profissional com drenagem adequada e posicionamento estratégico para melhor eficiência.</p>
                                         <div class="slide-tags">
-                                            <span class="slide-tag">Residencial</span>
+                                            <span class="slide-tag">Comercial</span>
                                             <span class="slide-tag">Split</span>
                                             <span class="slide-tag">Instalação</span>
                                         </div>
@@ -392,54 +386,28 @@
                                 <!-- Slide 2 -->
                                 <div class="carousel-slide">
                                     <div class="slide-image">
-                                        <img src="https://images.unsplash.com/photo-1629654291660-3c98113a0437?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Manutenção de freezer" loading="lazy">
+                                        <img src="Fotos-Servicos/Refrigeracao/Refrigeracao2.jpeg" alt="Instalação de ar condicionado" loading="lazy">
                                         <button class="expand-btn" data-carousel="1" data-slide="1" aria-label="Expandir imagem">
                                             <i class="fas fa-expand"></i>
                                         </button>
                                         <div class="slide-overlay">
                                             <div class="overlay-content">
-                                                <h4>Manutenção Corretiva</h4>
-                                                <p>Freezer comercial em manutenção</p>
+                                                <h4>Ar Condicionado Split</h4>
+                                                <p>Ar condicionado split em ambiente comercial</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="slide-info">
-                                        <h4>Manutenção de Freezer</h4>
-                                        <p>Reparo e limpeza de sistema de refrigeração com troca de componentes e teste de funcionamento.</p>
+                                        <h4>Ar Condicionado Split</h4>
+                                        <p>Instalação profissional com drenagem adequada e posicionamento estratégico para melhor eficiência.</p>
                                         <div class="slide-tags">
                                             <span class="slide-tag">Comercial</span>
-                                            <span class="slide-tag">Freezer</span>
-                                            <span class="slide-tag">Manutenção</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <!-- Slide 3 -->
-                                <div class="carousel-slide">
-                                    <div class="slide-image">
-                                        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Sistema central de ar" loading="lazy">
-                                        <button class="expand-btn" data-carousel="1" data-slide="2" aria-label="Expandir imagem">
-                                            <i class="fas fa-expand"></i>
-                                        </button>
-                                        <div class="slide-overlay">
-                                            <div class="overlay-content">
-                                                <h4>Sistema Central</h4>
-                                                <p>Instalação completa para ambiente comercial</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="slide-info">
-                                        <h4>Sistema Central de Ar Condicionado</h4>
-                                        <p>Instalação completa de sistema central para ambiente comercial com dutos e controle centralizado.</p>
-                                        <div class="slide-tags">
-                                            <span class="slide-tag">Comercial</span>
-                                            <span class="slide-tag">Central</span>
-                                            <span class="slide-tag">Dutos</span>
+                                            <span class="slide-tag">Split</span>
+                                            <span class="slide-tag">Instalação</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            
                             <!-- Botões de navegação -->
                             <button class="carousel-btn prev-btn" aria-label="Slide anterior">
                                 <i class="fas fa-chevron-left"></i>
@@ -447,17 +415,9 @@
                             <button class="carousel-btn next-btn" aria-label="Próximo slide">
                                 <i class="fas fa-chevron-right"></i>
                             </button>
-                            
-                            <!-- Indicadores melhorados -->
-                            <div class="carousel-indicators">
-                                <span class="indicator active" data-slide="0" aria-label="Ir para slide 1"></span>
-                                <span class="indicator" data-slide="1" aria-label="Ir para slide 2"></span>
-                                <span class="indicator" data-slide="2" aria-label="Ir para slide 3"></span>
-                            </div>
-                            
                             <!-- Contador de slides -->
                             <div class="slide-counter">
-                                <span class="current-slide">1</span> / <span class="total-slides">3</span>
+                                <span class="current-slide">1</span> / <span class="total-slides">2</span>
                             </div>
                         </div>
                     </div>
@@ -479,14 +439,14 @@
                                 <!-- Slide 1 -->
                                 <div class="carousel-slide active">
                                     <div class="slide-image">
-                                        <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Projeto comercial" loading="lazy">
+                                        <img src="Fotos-Servicos/Projeto-Eletrico/Projeto-Eletrico1.jpeg" alt="Projeto comercial" loading="lazy">
                                         <button class="expand-btn" data-carousel="2" data-slide="0" aria-label="Expandir imagem">
                                             <i class="fas fa-expand"></i>
                                         </button>
                                         <div class="slide-overlay">
                                             <div class="overlay-content">
                                                 <h4>Projeto Comercial</h4>
-                                                <p>Projeto elétrico completo para loja</p>
+                                                <p>Projeto elétrico completo</p>
                                             </div>
                                         </div>
                                     </div>
@@ -504,54 +464,28 @@
                                 <!-- Slide 2 -->
                                 <div class="carousel-slide">
                                     <div class="slide-image">
-                                        <img src="https://images.unsplash.com/photo-1629654291660-3c98113a0437?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Projeto residencial" loading="lazy">
+                                        <img src="Fotos-Servicos/Projeto-Eletrico/Projeto-Eletrico2.jpeg" alt="Projeto residencial" loading="lazy">
                                         <button class="expand-btn" data-carousel="2" data-slide="1" aria-label="Expandir imagem">
                                             <i class="fas fa-expand"></i>
                                         </button>
                                         <div class="slide-overlay">
                                             <div class="overlay-content">
-                                                <h4>Projeto Residencial</h4>
-                                                <p>Projeto elétrico residencial com automação</p>
+                                                <h4>Projeto Comercial</h4>
+                                                <p>Projeto elétrico completo</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="slide-info">
-                                        <h4>Projeto Residencial</h4>
-                                        <p>Iluminação e tomadas com eficiência energética e sistema de automação residencial integrado.</p>
+                                        <h4>Projeto Comercial</h4>
+                                        <p>Dimensionamento e distribuição de circuitos para loja comercial com especificações técnicas detalhadas.</p>
                                         <div class="slide-tags">
-                                            <span class="slide-tag">Residencial</span>
-                                            <span class="slide-tag">Automação</span>
-                                            <span class="slide-tag">Eficiência</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <!-- Slide 3 -->
-                                <div class="carousel-slide">
-                                    <div class="slide-image">
-                                        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Projeto industrial" loading="lazy">
-                                        <button class="expand-btn" data-carousel="2" data-slide="2" aria-label="Expandir imagem">
-                                            <i class="fas fa-expand"></i>
-                                        </button>
-                                        <div class="slide-overlay">
-                                            <div class="overlay-content">
-                                                <h4>Projeto Industrial</h4>
-                                                <p>Projeto elétrico para fábrica industrial</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="slide-info">
-                                        <h4>Projeto Industrial</h4>
-                                        <p>Sistema trifásico com proteções especiais, quadros de distribuição e controle para ambiente industrial.</p>
-                                        <div class="slide-tags">
-                                            <span class="slide-tag">Industrial</span>
-                                            <span class="slide-tag">Trifásico</span>
-                                            <span class="slide-tag">Proteções</span>
+                                            <span class="slide-tag">Comercial</span>
+                                            <span class="slide-tag">Projeto</span>
+                                            <span class="slide-tag">Dimensionamento</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            
                             <!-- Botões de navegação -->
                             <button class="carousel-btn prev-btn" aria-label="Slide anterior">
                                 <i class="fas fa-chevron-left"></i>
@@ -561,15 +495,11 @@
                             </button>
                             
                             <!-- Indicadores melhorados -->
-                            <div class="carousel-indicators">
-                                <span class="indicator active" data-slide="0" aria-label="Ir para slide 1"></span>
-                                <span class="indicator" data-slide="1" aria-label="Ir para slide 2"></span>
-                                <span class="indicator" data-slide="2" aria-label="Ir para slide 3"></span>
-                            </div>
+                            
                             
                             <!-- Contador de slides -->
                             <div class="slide-counter">
-                                <span class="current-slide">1</span> / <span class="total-slides">3</span>
+                                <span class="current-slide">1</span> / <span class="total-slides">2</span>
                             </div>
                         </div>
                     </div>
@@ -769,7 +699,7 @@
                         <div class="contact-details">
                             <h3>Instagram</h3>
                             <p>Siga-nos para ver nossos trabalhos</p>
-                            <a href="https://instagram.com" target="_blank" class="contact-link">@garcezeletrica</a>
+                            <a href="https://www.instagram.com/garcezeletrica_manutencoes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="contact-link">@garcezeletrica_manutencoes</a>
                         </div>
                     </div>
                     
@@ -835,7 +765,7 @@
                         <div class="social-links">
                             <p>Siga-nos nas redes sociais:</p>
                             <div class="social-icons">
-                                <a href="https://instagram.com" target="_blank" class="social-icon">
+                                <a href="https://www.instagram.com/garcezeletrica_manutencoes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="social-icon">
                                     <i class="fab fa-instagram"></i>
                                 </a>
                                 <a href="https://facebook.com" target="_blank" class="social-icon">
@@ -858,9 +788,11 @@
             <div class="footer-content">
                 <div class="footer-logo">
                     <div class="logo">
-                        <a href="#inicio">
-                            <span class="logo-icon-custom"></span>
-                            <span class="logo-text">Garcez&nbsp;<span class="logo-highlight">Elétrica</span></span>
+                        <a href="#inicio" aria-label="Garcez Elétrica - Página inicial">
+                            <img src="Logos/Icone.png" 
+                                 alt="Garcez Elétrica" 
+                                 class="logo-img">
+                            <span class="logo-text">Garcez&nbsp;<span class="logo-highlight"> Elétrica</span></span>
                         </a>
                     </div>
                     <p class="footer-tagline">Profissionalismo e responsabilidade em cada serviço</p>
@@ -901,7 +833,7 @@
                     </div>
                     <div class="footer-contact-item">
                         <i class="fab fa-instagram"></i>
-                        <span>@garcezeletrica</span>
+                        <span>@garcezeletrica_manutencoes</span>
                     </div>
                     <div class="footer-contact-item">
                         <i class="fas fa-envelope"></i>
@@ -927,5 +859,6 @@
     </a>
 
     <script src="script.js"></script>
+    
 </body>
 </html>
